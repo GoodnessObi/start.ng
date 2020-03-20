@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #EAECEF;
+}
+nav {
+    background-color: #7A829C;
+    height: 35px;
+    border-bottom: 2px solid #0366D6;
+    border-top: 2px solid #0366D6;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 28px;
+    margin: 5px 8px;
+}
+nav a:hover {
+    font-weight: bolder;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+.main .left {
+    border: 2px solid #0366D6;
+    height: 335px;
+    width: 250px;
+    margin-top: 15px;
+}
+.main .left ul {
+    list-style-type: none;
+    line-height: 20px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.main .left li {
+    padding: 3px 0;
+}
+.main .left a {
+    text-decoration: none;
+    color: #7A829C;
+}
+.main .left a:hover {
+    text-decoration: underline;
+}
+.main .right {
+    margin: 15px 0 40px 0;
+    text-align: left;
+}
+table { 
+    border: 2px solid #0366D6;
+    width: 1200px;
+}
+.main .right table tr td {
+    height: 150px;
+    padding-left: 5px;
+    color: #7A829C;
+}
+
+.main .right table th {
+    background-color: #7A829C;
+    height: 35px;
+    padding-left: 5px;
+    color: #000000;
+}
+.main .right .border-top-bottom {
+    border-top: 1px solid #0366D6;
+    border-bottom: 1px solid #0366D6;
+}
+.main .right .border-bottom {
+    border-bottom: 1px solid #0366D6;
+}
+.main .right .border-left-right {
+    border-left: 1px solid #0366D6;
+    border-right: 1px solid #0366D6;
+}
+.ad {
+    border: 2px solid #0366D6;
+    width: 1350px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    float: right;
+    padding: 30px 0;
+    margin-right: 30px;
+    color: #000000;
+}
+
+
