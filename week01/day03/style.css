@@ -32,6 +32,7 @@ nav a:hover {
     height: 335px;
     width: 250px;
     margin-top: 15px;
+    background-color: #FFFFFF;
 }
 .main .left ul {
     list-style-type: none;
@@ -61,6 +62,7 @@ table {
     height: 150px;
     padding-left: 5px;
     color: #7A829C;
+    background-color: #FFFFFF;
 }
 
 .main .right table th {
@@ -90,6 +92,7 @@ table {
     padding: 30px 0;
     margin-right: 30px;
     color: #000000;
+    background-color: #FFFFFF
 }
 
 
